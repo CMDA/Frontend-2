@@ -3,9 +3,9 @@ Een cursus over frontend development welke focust op abstracte programmeerprinci
 
 
 | Deel | Titel  | Git Tag  |
-|:-----|:-|:-|
-| 1 | aap | deel1 |
-| 2 | beer | deel2 |
-| 3 | pok | deel3 |
+|:---|:---|:---|
+| 1 | aap | [deel1]() |
+| 2 | beer | [deel2]() |
+| 3 | pok | [deel3]() |
 
 
