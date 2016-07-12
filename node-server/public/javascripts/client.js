@@ -9,7 +9,6 @@ var addUser = (function () {
 	};
 
 	var submitForm = function (e) {
-		
 		var form = e.target,
 			data = "username="+form.username.value+"&useremail="+form.useremail.value,
 			request = new XMLHttpRequest();
