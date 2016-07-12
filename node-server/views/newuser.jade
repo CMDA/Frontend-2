@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1= title
+	form#formAddUser(name="adduser",method="post",action="/adduser")
+		div
+			label(for=inputUserName) Username
+			input#inputUserName(type="text", placeholder="e.g. captain_smuck", name="username")
+		div
+			label(for=inputUserEmail) E-mail
+			input#inputUserEmail(type="text", placeholder="name@mail.nl", name="useremail")
+		div
+			button#btnSubmit(type="submit") submit
+
+	script(src='/javascripts/client.js')
