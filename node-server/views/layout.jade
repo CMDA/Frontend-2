@@ -1,8 +1,19 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
-    
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+	main
+		block content
+
+	nav
+		ul
+			li
+				a(href='/') About
+			li
+				a(href='/userlist') User list
+			li
+				a(href='/newuser')	New user	
+
+					
