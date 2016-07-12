@@ -29,8 +29,6 @@ router.get('/newuser', function(req, res) {
 
 /* POST to Add User Service */
 router.post('/adduser', function(req, res) {
-    console.log('username', req.body.username);
-
     // Set our internal DB variable
     var db = req.db;
 
@@ -52,7 +50,7 @@ router.post('/adduser', function(req, res) {
         }
         else {
             // And forward to success page
-            //res.redirect("userlist");
+            res.redirect("userlist");
         }
     });
 });
