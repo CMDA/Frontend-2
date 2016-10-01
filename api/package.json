@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "cmd-books-api",
+  "version": "1.0.0",
+  "description": "It's a streaming JSON API about books used to build examples for a course on Frontend Development",
+  "main": "main.js",
+  "author": "Justus Sturkenboom <j.p.sturkenboom@hva.nl>",
+  "license": "GNUGPL",
+  "repository": "https://github.com/CMDA/Frontend-2",
+  "bugs": "https://github.com/CMDA/Frontend-2/issues",
+  "homepage": "https://github.com/CMDA/Frontend-2#readme",
+  "keywords": [
+    "node",
+    "streaming",
+    "api",
+    "json"
+  ],
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.16.2",
+    "lowdb": "^0.13.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  }
+}

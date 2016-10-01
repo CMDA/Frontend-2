@@ -1,2 +1,4 @@
 node-server/data/journal
 node-server/node_modules/
+api/data/
+api/node_modules/

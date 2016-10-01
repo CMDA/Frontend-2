@@ -1,0 +1,119 @@
+{
+  "_type": "export",
+  "__export_format": 2,
+  "__export_date": "2016-10-01T10:04:51.448Z",
+  "__export_source": "insomnia.desktop.app:v3.5.3",
+  "resources": [
+    {
+      "modified": 1475316065435,
+      "created": 1473140781949,
+      "parentId": null,
+      "name": "Frontend 2 API",
+      "_id": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "_type": "workspace"
+    },
+    {
+      "modified": 1475160585172,
+      "created": 1475160585172,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "name": "Base Environment",
+      "data": {},
+      "_id": "env_itogiw9gFXVXW9QPEJzH8SaS",
+      "_type": "environment"
+    },
+    {
+      "modified": 1475315981297,
+      "created": 1475160585172,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "name": "Default Jar",
+      "cookies": [],
+      "_id": "jar_itogiw9gnMUaAP8hjf2FHEk5",
+      "_type": "cookie_jar"
+    },
+    {
+      "modified": 1475302694072,
+      "created": 1475160571177,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "url": "localhost:8000/books/",
+      "name": "List all books",
+      "method": "GET",
+      "body": "",
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "_id": "req_itogilgpDdtpxy76AAHzwmhf",
+      "_type": "request"
+    },
+    {
+      "modified": 1475311342389,
+      "created": 1475303066827,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "url": "localhost:8000/books/kant",
+      "name": "Find by query",
+      "method": "GET",
+      "body": "",
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "_id": "req_itqtcrt7bGznedj9tSfG7UZU",
+      "_type": "request"
+    },
+    {
+      "modified": 1475311929594,
+      "created": 1475309749042,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "url": "localhost:8000/books/",
+      "name": "Add KRV",
+      "method": "POST",
+      "body": "{\n      \"id\": \"978-9053527023\",\n      \"cat\": [\n        \"book\",\n        \"hardcover\"\n      ],\n      \"title\": \"Kritiek van de zuivere rede\",\n      \"author\": \"Immanuel Kant\",\n      \"translator\": [\n        \"Jabik Veenbaas\",\n        \"W. Visser\"\n      ],\n      \"genre_s\": \"philosophy\"\n    }",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_itqxbzuaKefvygk6usEZjmk6",
+      "_type": "request"
+    },
+    {
+      "modified": 1475311940305,
+      "created": 1475311759506,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "url": "localhost:8000/books/",
+      "name": "Remove KRV",
+      "method": "DELETE",
+      "body": "{\n\t\"id\":\"978-9053527023\"\n}",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_itqyj34iJyvCWEgH3WpChzT4",
+      "_type": "request"
+    },
+    {
+      "modified": 1475315967885,
+      "created": 1475313115870,
+      "parentId": "wrk_isr1zi4dhbKSkfBk64SmU",
+      "url": "localhost:8000/books/",
+      "name": "Patch KRV",
+      "method": "PATCH",
+      "body": "{\n\t\"find\": {\n\t\t\"id\": \"978-9053527023\"\n\t},\n\t\"patch\": {\n\t\t\"author\":\"Justus Sturkenboom\"\n\t}\n}",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_itqzc5pagP2VDV2tAzezQyUS",
+      "_type": "request"
+    }
+  ]
+}

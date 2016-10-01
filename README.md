@@ -34,3 +34,7 @@ sudo apt-get -y install mongodb
 In windows volg je deze [mongodb tutorial][2d445663].
 
   [2d445663]: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ "Installing mongodb on windows"
+
+
+
+(http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/)
