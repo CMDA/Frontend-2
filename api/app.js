@@ -1,6 +1,6 @@
 /**
- * Minimal uniform, stateless, cacheable REST API for testing purposes
- * DO NOT USE FOR PRODUCTION
+ * Musica: Minimal uniform, stateless, cacheable REST API
+ * DO NOT USE MUSICA FOR PRODUCTION
  */
 
 const express = require('express')

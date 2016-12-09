@@ -3,13 +3,13 @@
  * DO NOT USE FOR PRODUCTION
  */
 
-const things = 'books', // Other things? Change this to match your things, done...
-  db = require('lowdb')('./data/'+things+'.json', { storage: require('lowdb/lib/file-async') })
+const things = 'books' // Other things? Change this to match your things, done...
+const db = require('lowdb')('./data/' + things + '.json', { storage: require('lowdb/lib/file-async') })
 
 // Initialize the lowdb database if your things don't exist
-if(!db.has(things).value())
-  db.defaults({[things]:[]}).value()
-
+if (!db.has(things).value()) {
+  db.defaults({[things]: []}).value()
+}
 // Expose the following routes
 module.exports = require('express').Router()
 
@@ -54,15 +54,17 @@ module.exports = require('express').Router()
  * @return {Boolean}       [defines whether there is a match]
  */
 Object.prototype.has = function (query) {
-  for(var key in this ) {
-    switch(typeof this[key]){
+  for (var key in this) {
+    switch (typeof this[key]) {
       case 'string':
-        if(this[key].toLowerCase().indexOf(query)!== -1)
+        if (this[key].toLowerCase().indexOf(query) !== -1) {
           return true
+        }
         break
       case 'object':
-        if(this[key].has(query))
+        if (this[key].has(query)) {
           return true
+        }
         break
     }
   }
