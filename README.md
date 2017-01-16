@@ -22,17 +22,17 @@ Tijdens de wekelijkse practica worden onderwerpen behandeld op aanvraag van de g
 
 ## Competenties
 - Onderzoeken
-- - Beoordeelt de geraadpleegde en vermelde bronnen op kwaliteit
-- - Analyseert ontwikkelingen in het interactieve media werkveld
+	- Beoordeelt de geraadpleegde en vermelde bronnen op kwaliteit
+	- Analyseert ontwikkelingen in het interactieve media werkveld
 - Maken
-- - Vindt en verwerkt zelfstandig bronnen om kleine complicaties op te lossen tijdens het maakproces.
-- - Werkt systematisch en navolgbaar
+	- Vindt en verwerkt zelfstandig bronnen om kleine complicaties op te lossen tijdens het maakproces.
+	- Werkt systematisch en navolgbaar
 - Adviseren
-- - Reflecteert op het eigen advies en dat van medestudenten en verwerkt feedback
-- - Argumenteert en overtuigt in correct en helder Nederlands
-- - Past verschillende gesprekstechnieken toe in klantgerichte communicatie met de opdrachtgever
+	- Reflecteert op het eigen advies en dat van medestudenten en verwerkt feedback
+	- Argumenteert en overtuigt in correct en helder Nederlands
+	- Past verschillende gesprekstechnieken toe in klantgerichte communicatie met de opdrachtgever
 - Projectmanagen
-- - Maakt en bewaakt een gefaseerde planning en rapporteert (tussen)-resultaten
+	- Maakt en bewaakt een gefaseerde planning en rapporteert (tussen)-resultaten
 
 ## Leerdoelen
 Aan het eind van de cursus kan de student(e):
@@ -58,7 +58,7 @@ Geen herkansing voor quizzes
 Herkansing voor tentamen eind semester 2
 
 # Verplichte literatuur
-- Kyle Simpson, *You Don't Know JS: Up & Going*, O'Reilly Media
+- Kyle Simpson, [*You Don't Know JS: Up & Going*](), O'Reilly Media
 - Kyle Simpson, *You Don't Know JS: Scope & Closures*, O'Reilly Media
 - Kyle Simpson, *You Don't Know JS: this & Object Prototypes*, O'Reilly Media
 - Kyle Simpson, *You Don't Know JS: Types & Grammar*, O'Reilly Media
