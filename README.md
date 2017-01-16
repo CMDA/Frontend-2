@@ -73,7 +73,7 @@ In aansluiting op de verplichte literatuur bieden we wekelijks bronnen aan in dr
 # Programma in schema
 
 | Kalenderweek/ datum | Thema/ Theorie | Huiswerk |
-|:-|:-|:-|
+|:---|:---|:---|
 | **Week 6** (6-2-2017) | .js bootcamp | YDKJS: Up & Going (ch1&2) en andere artikelen naar niveau op moodle |
 | **Week 7** (13-2-2017) | Introductie | YDKJS: Up & Going (ch3) en andere artikelen naar niveau op moodle |
 | **Week 8** (20-2-2017) | Voorjaarsreces |  |
