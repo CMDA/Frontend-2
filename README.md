@@ -1,5 +1,5 @@
 # Front-end Development 2, 2016/17
-Een 2e jaars vak aangeboden bij Communication & Multimedia Design aan de Hogeschool van Amsterdam.
+Een 2e jaars vak aangeboden bij Communication & Multimedia Design aan de Hogeschool van Amsterdam. 
 
 # Inleiding
 De ontwikkelingen op het gebied van techniek gaan razendsnel en als CMD-er heb je in het fundament van je opleiding (de eerste 1,5 jaar) een beperkte introductie met Javascript gekregen. Als je wilt profileren in de richting Front-end Development is het verstandig de grondbeginselen van Javascript grondig te bestuderen. Jaarlijks worden vele bibliotheken en platformen uitgebracht en het bijhouden van ál deze systemen is onmogelijk. Daarom leggen wij in dit vak de focus op de essentie in de wetenschap dat als je die ‘hebt zitten’
@@ -22,17 +22,17 @@ Tijdens de wekelijkse practica worden onderwerpen behandeld op aanvraag van de g
 
 ## Competenties
 - Onderzoeken
--- Beoordeelt de geraadpleegde en vermelde bronnen op kwaliteit
--- Analyseert ontwikkelingen in het interactieve media werkveld
+- - Beoordeelt de geraadpleegde en vermelde bronnen op kwaliteit
+- - Analyseert ontwikkelingen in het interactieve media werkveld
 - Maken
--- Vindt en verwerkt zelfstandig bronnen om kleine complicaties op te lossen tijdens het maakproces.
--- Werkt systematisch en navolgbaar
+- - Vindt en verwerkt zelfstandig bronnen om kleine complicaties op te lossen tijdens het maakproces.
+- - Werkt systematisch en navolgbaar
 - Adviseren
--- Reflecteert op het eigen advies en dat van medestudenten en verwerkt feedback
--- Argumenteert en overtuigt in correct en helder Nederlands
--- Past verschillende gesprekstechnieken toe in klantgerichte communicatie met de opdrachtgever
+- - Reflecteert op het eigen advies en dat van medestudenten en verwerkt feedback
+- - Argumenteert en overtuigt in correct en helder Nederlands
+- - Past verschillende gesprekstechnieken toe in klantgerichte communicatie met de opdrachtgever
 - Projectmanagen
--- Maakt en bewaakt een gefaseerde planning en rapporteert (tussen)-resultaten
+- - Maakt en bewaakt een gefaseerde planning en rapporteert (tussen)-resultaten
 
 ## Leerdoelen
 Aan het eind van de cursus kan de student(e):
