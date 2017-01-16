@@ -1,40 +1,90 @@
-# Frontend 2
-Een cursus over frontend development welke focust op abstracte programmeerprincipes binnen vanilla javascript. De voorbeelden zijn gericht op progressive enhancement van statische HTML5/CSS3 pagina’s welke gegenereerd worden door node.js, express en ejs.
+# Inhoud
+{{TOC}}
++++
 
+# Inleiding
+De ontwikkelingen op het gebied van techniek gaan 
 
-| Deel | Titel | Git Tag   |
-|:-----|:------|:----------|
-| 1    | aap   | [deel1]() |
-| 2    | beer  | [deel2]() |
-| 3    | pok   | [deel3]() |
+​In Frontend 2 ga je dieper in op abstracte programmeerprincipes in JavaScript aan de hand van voorbeelden over progressive enhancement. Je leert pure javascript inzetten zonder een website hier geheel afhankelijk van te maken. Met andere woorden, het moet ook werken zonder javascript. Er wordt bewust gekozen geen gebruik te maken van libraries en/of API’s, wij gebruiken Vanilla JS omdat dit toekomstbestendiger is.
++++
 
+# Opzet en inhoud
 
-## Lokale installatie MEAN restfull API (optioneel)
-Als je thuis wilt testen zonder internetverbinding zul je de API server moeten installeren. Hier vind je de stap-voor-stap instructies voor het _up_ krijgen van de server.
+## Opzet van de module
+Het vak Frontend Development wordt in ‘MOOC’ stijl opgezet. Dit betekent dat studenten voornamelijk werken op basis van zelfstudie waarbij het studiemateriaal verstrekt wordt via Moodle. Van alle onderwerpen en voorbeelden worden op drie verschillende moeilijkheidsniveau’s bronnen aangereikt. Je wordt geacht zelf deze bronnen te bestuderen en je de materie eigen te maken. 
 
+## Practica
+Tijdens de wekelijkse practica worden onderwerpen behandeld op aanvraag van de groep, aan het begin van een practicum wordt een agenda gemaakt voor die les. Als aanjager worden wekelijkse quizzes ingezet die met een voldoende afgerond moeten worden om deel te mogen nemen aan het tentamen. Daarnaast worden opdrachten ingediend en door klasgenoten van feedback voorzien.
 
+​De materie uit Internetstandaarden en Frontend Development worden als voorkennis verondersteld, het vak sluit aan op het eindniveau van het vak Programmeren maar begint met een recap javascript. Dit vak is een must voor de technisch georiënteerde ontwerper.​
 
-### Installatie van MongoDB
-MongoDB is een NoSQL document database. Het slaat data in een JSON-achtig formaat op en maakt het mogelijk om daar met SQL-achtige queries tegen te praten.
+## Huiswerk
 
-Als je een Mac hebt met [brew][ff8f5748] doe je in een terminal:
+## Studielast
 
-  [ff8f5748]: http://brew.sh/ "brew"
+## Competenties
+- Onderzoeken
+-- Beoordeelt de geraadpleegde en vermelde bronnen op kwaliteit
+-- Analyseert ontwikkelingen in het interactieve media werkveld
+- Maken
+-- Vindt en verwerkt zelfstandig bronnen om kleine complicaties op te lossen tijdens het maakproces.
+-- Werkt systematisch en navolgbaar
+- Adviseren
+-- Reflecteert op het eigen advies en dat van medestudenten en verwerkt feedback
+-- Argumenteert en overtuigt in correct en helder Nederlands
+-- Past verschillende gesprekstechnieken toe in klantgerichte communicatie met de opdrachtgever
+- Projectmanagen
+-- Maakt en bewaakt een gefaseerde planning en rapporteert (tussen)-resultaten
 
-```
-brew install mongodb && mongod
-```
+## Leerdoelen
+Aan het eind van de cursus kan de student(e):
 
-In Ubuntu:
+- Abstracte programmeerprincipes herkennen en beschrijven.
+- Zonder angst een technische uitdaging aangaan.
+- Technische artikelen beoordelen op kwaliteit en deze bekritiseren.
+- Zich nieuwe technische materie eigen maken
+- Op de hoogte blijven van technische ontwikkelingen op gebied van javascript 
+- Ontwikkeld beginnend vermogen tot tijdsinschatting van technische implementaties
 
-```
-sudo apt-get -y install mongodb
-```
+# Toetsing en herkansing
 
-In windows volg je deze [mongodb tutorial][2d445663].
+## Toetsing
+Wekelijkse quizzes voor 1 pt op tentamen (4 van de 5 voldoende)
+Huiswerkopdrachten (tentamenvoorbereiding)
+Schriftelijk tentamen (100% van het cijfer)
 
-  [2d445663]: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ "Installing mongodb on windows"
+nb. project 
 
+## Herkansing
+Geen herkansing voor quizzes
+Herkansing voor tentamen eind semester 2
 
+# Verplichte literatuur
+- Kyle Simpson, *You Don't Know JS: Up & Going*, O'Reilly Media
+- Kyle Simpson, *You Don't Know JS: Scope & Closures*, O'Reilly Media
+- Kyle Simpson, *You Don't Know JS: this & Object Prototypes*, O'Reilly Media
+- Kyle Simpson, *You Don't Know JS: Types & Grammar*, O'Reilly Media
+- Kyle Simpson, *You Don't Know JS: Async & Performance*, O'Reilly Media
+- Kyle Simpson, *You Don't Know JS: ES6 & Beyond*, O'Reilly Media
 
-(http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/)
+# Aanbevolen literatuur
+- Marijn Haverbeke, *Eloquent Javascript 2nd ed.*, No Starch Press
+
+In aansluiting op de verplichte literatuur bieden we wekelijks bronnen aan in drie moeilijkheidsgraden, welke je zullen helpen de materie in de YDKJS boeken te verstaan. Houd onze moodle pagina goed in de gaten.
+
+# Programma in schema
+
+| Kalenderweek/ datum | Thema/ Theorie | Huiswerk |
+|:-|:-|:-|
+| **Week 6** (6-2-2017) | .js bootcamp | YDKJS: Up & Going (ch1&2) en andere artikelen naar niveau op moodle |
+| **Week 7** (13-2-2017) | Introductie | YDKJS: Up & Going (ch3) en andere artikelen naar niveau op moodle |
+| **Week 8** (20-2-2017) | Voorjaarsreces |  |
+| **Week 9** (27-2-2017) | Scope & Closures / Off-canvas menu | YDKJS: Scope & Closures (ch) en andere artikelen naar niveau op moodle |
+| **Week 10** (6-3-2017) | this & Object prototypes | YDKJS: this & Object prototypes (ch) en andere artikelen naar niveau op moodle |
+| **Week 11** (13-3-2017) | Types & Grammar | YDKJS: Types & Grammar (ch) en andere artikelen naar niveau op moodle |
+| **Week 12** (20-3-2017) | Async & Performance | YDKJS: Async & Performance (ch) en andere artikelen naar niveau op moodle |
+| **Week 13** (27-3-2017) | ES6 & Beyond | YDKJS: ES6 & Beyond (ch) en andere artikelen naar niveau op moodle |
+| **Week 14** (3-4-2017) | practicum tbv. project en tentamenvoorbereiding |  |
+| **Week 15** (10-4-2017) | Tentamen |  |
+
+ 
