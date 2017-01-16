@@ -1,12 +1,10 @@
-# Inhoud
-{{TOC}}
-+++
+# Front-end Development 2, 2016/17
+Een 2e jaars vak aangeboden bij Communication & Multimedia Design aan de Hogeschool van Amsterdam.
 
 # Inleiding
-De ontwikkelingen op het gebied van techniek gaan 
+De ontwikkelingen op het gebied van techniek gaan razendsnel en als CMD-er heb je in het fundament van je opleiding (de eerste 1,5 jaar) een beperkte introductie met Javascript gekregen. Als je wilt profileren in de richting Front-end Development is het verstandig de grondbeginselen van Javascript grondig te bestuderen. Jaarlijks worden vele bibliotheken en platformen uitgebracht en het bijhouden van ál deze systemen is onmogelijk. Daarom leggen wij in dit vak de focus op de essentie in de wetenschap dat als je die ‘hebt zitten’
 
 ​In Frontend 2 ga je dieper in op abstracte programmeerprincipes in JavaScript aan de hand van voorbeelden over progressive enhancement. Je leert pure javascript inzetten zonder een website hier geheel afhankelijk van te maken. Met andere woorden, het moet ook werken zonder javascript. Er wordt bewust gekozen geen gebruik te maken van libraries en/of API’s, wij gebruiken Vanilla JS omdat dit toekomstbestendiger is.
-+++
 
 # Opzet en inhoud
 
