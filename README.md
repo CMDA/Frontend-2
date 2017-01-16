@@ -58,12 +58,14 @@ Geen herkansing voor quizzes
 Herkansing voor tentamen eind semester 2
 
 # Verplichte literatuur
-- Kyle Simpson, [*You Don't Know JS: Up & Going*](), O'Reilly Media
-- Kyle Simpson, *You Don't Know JS: Scope & Closures*, O'Reilly Media
-- Kyle Simpson, *You Don't Know JS: this & Object Prototypes*, O'Reilly Media
-- Kyle Simpson, *You Don't Know JS: Types & Grammar*, O'Reilly Media
-- Kyle Simpson, *You Don't Know JS: Async & Performance*, O'Reilly Media
-- Kyle Simpson, *You Don't Know JS: ES6 & Beyond*, O'Reilly Media
+De boekenserie van Kyle Simpson is gratis te verkrijgen via GitHub, de links naar de O’Reilly Media site (de uitgeverij) staan er ook bij voor de mensen die van papier houden.
+
+- Kyle Simpson, [*You Don't Know JS: Up & Going*](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going), [O'Reilly Media](http://shop.oreilly.com/product/0636920039303.do)
+- Kyle Simpson, [*You Don't Know JS: Scope & Closures*](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures), [O'Reilly Media](http://shop.oreilly.com/product/0636920026327.do)
+- Kyle Simpson, [*You Don't Know JS: this & Object Prototypes*](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes), [O'Reilly Media](http://shop.oreilly.com/product/0636920033738.do)
+- Kyle Simpson, [*You Don't Know JS: Types & Grammar*](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar), [O'Reilly Media](http://shop.oreilly.com/product/0636920033745.do)
+- Kyle Simpson, [*You Don't Know JS: Async & Performance*](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance), [O'Reilly Media](http://shop.oreilly.com/product/0636920033752.do)
+- Kyle Simpson, [*You Don't Know JS: ES6 & Beyond*](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond), [O'Reilly Media](http://shop.oreilly.com/product/0636920033769.do)
 
 # Aanbevolen literatuur
 - Marijn Haverbeke, *Eloquent Javascript 2nd ed.*, No Starch Press
