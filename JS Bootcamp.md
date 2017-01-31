@@ -260,24 +260,124 @@ Dit is een lastig ding, om goed te zien hoe && en || werken maken we een waarhei
 *You need conditionals like if statements to make decisions.*
 
 ```
-
+// If/else statement
+var condition = true;
+if(condition) {
+	// do something
+} else {
+	// do something else
+}
 ```
 
 *You need conditionals like if statements to make decisions.*
 
 ```
-
+// If/elseif/else
+var condition = true;
+var another = false;
+if(condition {
+	// do something
+} else if (another) {
+	// do something else
+} else {
+	// do something else else
+}
 ```
 
 *You need conditionals like if statements to make decisions.*
 
 ```
-
+// Switch
+var condition = true;
+switch (condition) {
+	case true:
+		// do something
+		break;
+	case false:
+		// do something else
+		break;
+	case default:
+		console.log('var condition has to be either true or false');
+}
 ```
 
 ### You need loops to repeat tasks until a condition stops being true.
 
+```
+// Incrementing for-loop
+for (var i=0; i<9; i++) {
+	console.log(i);
+}
+```
+
+*You need loops to repeat tasks until a condition stops being true.*
+
+```
+// Decrementing for-loop
+for (var i=9; i>0; i--) {
+	console.log(i);
+}
+```
+
+*You need loops to repeat tasks until a condition stops being true.*
+
+```
+// While loop voor SLC gesprekken
+var aantalStudenten = 15;
+while (aantalStudenten > 0) {
+	console.log('Hoe gaat het er mee?');
+	// Voer een serieus gesprek
+	aantalStudenten--;
+}
+```
+
+*You need loops to repeat tasks until a condition stops being true.*
+
+```
+// Do while loop (altijd 1 keer)
+var aantalStudenten = 15;
+do {
+	console.log('Hoe gaat het er mee?');
+	// Voer een serieus gesprek
+	aantalStudenten--;
+} while (aantalStudenten > 0)
+
+```
+
+*You need loops to repeat tasks until a condition stops being true.*
+
+```
+// While true loop (draait ad infinitum?)
+var i = 0;
+while (true) {
+	if (i <= 9) {
+		break; 	// doorbreek de loop
+	}
+	console.log( i );
+	i++;
+}
+```
+
+
 ### You need functions to organize your code into logical and reusable chunks.
+
+```
+```
+
+*You need functions to organize your code into logical and reusable chunks.*
+
+```
+```
+
+*You need functions to organize your code into logical and reusable chunks.*
+
+```
+```
+
+*You need functions to organize your code into logical and reusable chunks.*
+
+```
+```
 
 ## Drill instruction 3
 Begin met het noemen en toelichten van de drie principes. Daarna open je de console in Chrome en vraag je studenten om weer mee te typen.
