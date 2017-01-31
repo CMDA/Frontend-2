@@ -362,21 +362,31 @@ while (true) {
 ### You need functions to organize your code into logical and reusable chunks.
 
 ```
+// Simpele functie
+function begroeten() {
+	console.log('Hee hoe is het?');
+}
 ```
 
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
+// Simpele functie met parameters
+function begroeten(naam) {
+	console.log('Hee ' + naam + ' hoe is het?');
+}
 ```
 
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
+
 ```
 
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
+
 ```
 
 ## Drill instruction 3
