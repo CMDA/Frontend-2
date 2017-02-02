@@ -429,9 +429,58 @@ foo.push('drie');
 ### You need objects to store composite values using their original construct in natural language.
 
 ```
+// Inline object
+var teacher = {
+	'name': 'Justus',
+	'age': 38,  // 'O.o
+	'email': 'j.p.sturkenboom@hva.nl',
+	'cell': '06-21157954'
+}
+```
+
+*You need objects to store composite values using their original construct in natural language.*
+
+```
+// Using the dot operator! 
+console.log(teacher.name);
+```
+
+*You need objects to store composite values using their original construct in natural language.*
+
+```
+// Using the array notation
+```
+
+*You need objects to store composite values using their original construct in natural language.*
+
+```
+// Objects containing objects
+```
+
+*You need objects to store composite values using their original construct in natural language.*
+
+```
+// Objects containing arrays
 ```
 
 ### You need JSON to store, retrieve and manage lists of composite values.
 
 ```
+// Arrays containing objects
 ```
+
+*You need JSON to store, retrieve and manage lists of composite values.*
+
+```
+// Arrays containing objects containing arrays
+```
+
+*You need JSON to store, retrieve and manage lists of composite values.*
+
+```
+// Arrays containing objects containing objects containing arrays
+
+```
+
+
+So there you go..
