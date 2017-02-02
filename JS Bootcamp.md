@@ -246,16 +246,16 @@ Dit is een lastig ding, om goed te zien hoe && en || werken maken we een waarhei
 | A | B | A && B |
 |:--|:--|:--|
 | true | true | true |
-| true | 0 | 0 |
-| 0 | true | 0 |
-| 0 | 0 | 0 |
+| true | false | false |
+| false | true | false |
+| false | false | false |
 
 | A | B | A \|\| B |
 |:--|:--|:--|
 | true | true | true |
-| true | 0 | true |
-| 0 | true | true |
-| 0 | 0 | 0 |
+| true | false | true |
+| false | true | true |
+| false | false | false |
 
 *You need conditionals like if statements to make decisions.*
 
@@ -380,12 +380,14 @@ function begroeten(naam) {
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
+// Functie als parameter meegeven aan een functie
 
 ```
 
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
+// Functie genererende functie + closure (hogere orde functies)
 
 ```
 
@@ -394,6 +396,42 @@ Begin met het noemen en toelichten van de drie principes. Daarna open je de cons
 
 ### You need arrays to store lists of numerically positioned values.
 
+```
+// Inline array
+var foo = ['een', 'twee', 'drie'];
+```
+
+*You need arrays to store lists of numerically positioned values.*
+
+```
+// Array via posities
+var foo = [];
+foo[0] = 'een';
+foo[1] = 'twee';
+foo[2] = 'drie';
+```
+
+*You need arrays to store lists of numerically positioned values.*
+
+```
+// Array via push
+var foo = [];
+foo.push('een', 'twee');
+foo.push('drie');
+```
+
+*You need arrays to store lists of numerically positioned values.*
+
+```
+// Array functions?
+```
+
 ### You need objects to store composite values using their original construct in natural language.
 
+```
+```
+
 ### You need JSON to store, retrieve and manage lists of composite values.
+
+```
+```
