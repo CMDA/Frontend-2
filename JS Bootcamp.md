@@ -347,7 +347,7 @@ do {
 *You need loops to repeat tasks until a condition stops being true.*
 
 ```
-// While true loop (draait ad infinitum?)
+// While true loop (ad infinitum?)
 var i = 0;
 while (true) {
 	if (i <= 9) {
@@ -387,8 +387,22 @@ function begroeten(naam) {
 *You need functions to organize your code into logical and reusable chunks.*
 
 ```
-// Functie genererende functie + closure (hogere orde functies)
+// Functie genererende functie + closure: hogere orde functies
+function maakTeller (x) {
+    // parameter `x` is een interne variabele
+    // de functie gebruikt x en heeft er dus 'closure' over
+    
+    return function (y) {
+        return y + x;
+    };
+}
 
+var plusOne = makeAdder( 1 );
+var plusTen = makeAdder( 10 );
+
+plusOne( 3 );
+plusOne( 41 );
+plusTen( 13 );
 ```
 
 ## Drill instruction 3
