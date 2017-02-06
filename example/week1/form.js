@@ -38,8 +38,25 @@ for (var i = 0; i < inputs.length; i++) {
         tempLabel.classList.remove('checked')
       }
     }
-    // asynchronously transfer form data to server
+    sendData()
   })
 }
 
+function sendData () {
+  var request = new XMLHttpRequest()
+
+  request.addEventListener('load', function (event) {
+    console.log('Succes! ' + event.target.responseText)
+  })
+  request.addEventListener('error', function (event) {
+    console.error('Form could not be sent! ' + event.target.responseText)
+  })
+
+  request.open('POST', 'https://super.awesome.api.com')
+  request.send(new FormData(document.querySelector('footer form')))
+}
+
 document.querySelector('footer input[type=submit]').classList.add('rating-submit')
+document.querySelector('footer form').addEventListener('submit', function (event) {
+  event.preventDefault()
+})
