@@ -297,7 +297,6 @@ if (condition) {
 var condition = true
 
 switch (condition) {
-<<<<<<< HEAD
 	case true:
 		// do something
 		break;
@@ -306,16 +305,6 @@ switch (condition) {
 		break;
 	default:
 		console.log('var condition has to be either true or false');
-=======
-  case true:
-    // do something
-    break
-  case false:
-    // do something else
-    break
-  default:
-    console.log('condition has to be either true or false')
->>>>>>> origin/master
 }
 ```
 
