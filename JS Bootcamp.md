@@ -5,7 +5,7 @@
 - deze handleiding
 - een laptop met aansluitverloopjes
 - 4 kleuren stiften
-- genoeg chocoladereepjes voor de klas (max 30)
+- genoeg chocoladereepjes voor de klas (max 30)??
 
 ## Introductie
 ​In Frontend 2 ga je dieper in op abstracte programmeerprincipes in JavaScript aan de hand van voorbeelden over progressive enhancement. Je leert pure javascript inzetten zonder een website hier geheel afhankelijk van te maken. Met andere woorden, het moet ook werken zonder javascript. Er wordt bewust gekozen geen gebruik te maken van libraries en/of API’s, wij gebruiken Vanilla JS omdat dit toekomstbestendiger is.
@@ -49,8 +49,8 @@ Zojuist hebben we twee operatoren in actie gezien, de * en de =, maar er zijn na
 naam = "jouwnaam"
 leeftijd = 38
 schoenmaat = 45
-naam_en_leeftijd = name + " is " + age + " jaar oud"
-naamEnLeeftijd = age + " is de leeftijd van " + name
+naam_en_leeftijd = naam + " is " + leeftijd + " jaar oud"
+naamEnLeeftijd = leeftijd + " is de leeftijd van " + naam
 inDienstBijDeHvA = true
 houdVanFotosVanKatten = false
 omtrek = 2 * Math.PI
@@ -156,6 +156,7 @@ typeof dracula
 // Number
 var verwachtAantalEerstejaars = 806;
 var belastingHoog = 0,21;
+
 var hoog = 9007199254740992;
 var laag = -hoog;
 hoog == hoog + 1
@@ -202,13 +203,6 @@ var positive = flip(-25);
 var teacher1 = "Joost",
 	teacher2 = "Titus",
 	teacher3 = "Justus";
-```
-
-*You need variables to store data (aka state) during your program's execution*
-
-```
-// Function Hoisting
-
 ```
 
 Als het goed is ben je nu ~20 minuten verder, zet de volgende presentatieslide op de beamer, vraag de studenten of er vragen zijn over het voorgaande. Na de pauze komt de squad assignment.
