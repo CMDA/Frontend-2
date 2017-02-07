@@ -290,7 +290,7 @@ switch (condition) {
 	case false:
 		// do something else
 		break;
-	case default:
+	default:
 		console.log('var condition has to be either true or false');
 }
 ```
@@ -375,6 +375,9 @@ function begroeten(naam) {
 
 ```
 // Functie als parameter meegeven aan een functie
+function begroeten(naam) {
+	console.log('Hee ' + naam() + ' hoe is het?');
+}
 
 ```
 
@@ -391,8 +394,8 @@ function maakTeller (x) {
     };
 }
 
-var plusOne = makeAdder( 1 );
-var plusTen = makeAdder( 10 );
+var plusOne = maakTeller( 1 );
+var plusTen = maakTeller( 10 );
 
 plusOne( 3 );
 plusOne( 41 );
@@ -428,11 +431,6 @@ foo.push('een', 'twee');
 foo.push('drie');
 ```
 
-*You need arrays to store lists of numerically positioned values.*
-
-```
-// Array functions?
-```
 
 ### You need objects to store composite values using their original construct in natural language.
 
@@ -457,12 +455,29 @@ console.log(teacher.name);
 
 ```
 // Using the array notation
+teacher['shoe size'] = 46
 ```
 
 *You need objects to store composite values using their original construct in natural language.*
 
 ```
 // Objects containing objects
+var teacher = {
+	'name': 'Justus',
+	'age': 38,  // 'O.o
+	'email': 'j.p.sturkenboom@hva.nl',
+	'cell': '06-21157954',
+	'children': [
+		{
+			'name': 'Isolde',
+			'age': 5
+		},
+		{
+			'name': 'Felix',
+			'age': 3
+		}
+	]
+}
 ```
 
 *You need objects to store composite values using their original construct in natural language.*
