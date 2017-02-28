@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 50em;
+    width: 100vw;
+    background: teal;
+    margin-top: -3em;
+}
+
+h1 {
+    font-family: inherit;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-family: 'Scope One', serif;
+    font-size: 0.9em;
+}
+
+/* ------------------------------>   Main Navigation*/
+/*main nav is invisible because it's top margin is -22em, this drags the menu out of sight.*/
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: max-content;
+    background: black;
+    margin-top: -22em;
+    transition: 1s ease-in-out;
+    z-index: 2;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav ul {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 1em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    margin-top: 0;
+}
+
+.main-nav ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li a {
+    font-family: inherit;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1em 0;
+    width: 10em;
+    width: max-content;
+}
+
+/*Hocus on menu links*/
+ul li a:hover, ul li a:focus {
+    color: #80CED6;
+}
+
+
+/*First ul in listitem, dropdown element is invisible unless hovered on products.*/
+.main-nav li > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+    width: 17em;
+}
+
+li > ul li {
+    width: 4em;
+}
+
+.menu-toggle {
+    top: 0;
+    width: 3em;
+    min-height: 3em;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+a.expand-click:after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+/*Animation menu-toggle*/
+@keyframes wiggle {
+  0%{
+	margin-top: 0;
+  }
+  20%{
+	margin-top: 0;
+  }
+  40%{
+	margin-top: -1em;
+  }
+  50%{
+	margin-top: 0.6em;
+  }
+  60%{
+	margin-top: -0.6em;
+  }
+  80%{
+	margin-top: 0;
+  }
+  100%{
+	margin-top: 0;
+  }
+}
+
+
+/*arrow down, from https://css-tricks.com/snippets/css/css-triangle/*/
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid white;
+    margin: 0 auto;
+    animation: wiggle 1.5s 5 ease-in-out;
+}
+
+.invisible {
+    display: none;
+    opacity: 0;
+}
+
+
+/*De-Emphasize op menu*/
+#open-menu:target {
+    margin-top: 0;
+    transition: 1s ease-in-out;
+}
+
+#open-menu:target + .menu-toggle a {
+    display: none;
+}
+
+#open-menu:target + .menu-toggle {
+    position: relative;
+    animation: none;
+}
+
+#open-menu:target + .menu-toggle >.arrow-down {
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+#open-menu:target + .menu-toggle .invisible {
+    display: flex;
+    opacity: 1;
+    z-index: 2;
+}
+
+/*end main navigation*/

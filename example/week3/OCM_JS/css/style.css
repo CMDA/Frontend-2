@@ -1,0 +1,161 @@
+/*Off Canvas Menubalk ©Cyd Stumpel 2016*/
+
+/* ----------------------------> Standaard instellingen*/
+* {   
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+}
+
+p {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.7em;
+    padding-left: 0;
+    margin: 0 0 0.3em 0;
+    font-weight: 300;
+}
+
+.menubar > a {
+    text-decoration: none;
+}
+
+/* ----------------------------> titel*/
+.titel {
+    display: flex;
+    flex-direction: row;
+    margin: 0.75em 0 0 1.5em;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;  
+}
+/* ----------------------------> titel bold*/
+.titel > span {
+    font-weight: 600;
+}
+
+/* ----------------------------> Navigatie*/
+nav {
+    margin: 0.75em auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 0.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    font-weight: 300;
+    text-decoration: overline;
+}
+
+.menubar {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #333;
+    height: 3em;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 1;
+    transition: 1s;
+    margin-left: 68em;
+}
+
+.invisible {
+    margin-left: 0;
+    transition: 2s;
+}
+
+/* ----------------------------> menuknop*/
+#menuKnop {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.5em;
+    background: #333;
+    width: 3em;
+    height: 3em;
+    transform: 1s;
+    right: 0%;
+}
+
+.streepje {
+    width: 2em;
+    height: 0.35em;
+    background: white;
+    transform: 1s;
+    transform: rotate(45deg);
+    margin: 0;
+    margin-bottom: -1.9em;
+}
+
+.streepje2 {
+    margin: 0;
+    transform: rotate(135deg);
+}
+
+.ani1 {
+    transition: 1s;
+    margin: 0;
+    margin-bottom: -1.9em;
+    transform: rotate(45deg);
+
+}
+
+.ani2 {
+    transition: 1s;
+    transform: rotate(135deg);
+
+}
+
+.ani3 {
+    transition: 1s;
+    transform: rotate(0);
+    margin: 0;
+}
+
+.ani4 {
+    transition: 1s;
+    transform: rotate(0);
+}
+/* ----------------------------> einde menuknop*/
+
+/* ----------------------------> Main*/
+
+main {
+    padding: 4em 10em;
+}
+
+
+
+
+
+
+
+

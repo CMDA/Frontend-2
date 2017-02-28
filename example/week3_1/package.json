@@ -1,0 +1,13 @@
+{
+  "name": "week3_1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Justus Sturkenboom <j.p.sturkenboom@hva.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo main.js --live --open"
+  },
+  "devDependencies": {
+    "budo": "^9.4.7"
+  }
+}
