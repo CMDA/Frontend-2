@@ -1,0 +1,39 @@
+/* Meyer's Reset */
+html, body, div, h1, h2, h4, p, a, img, ul, li
+{ margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+body { line-height: 1; color: black; background: white; }
+ol, ul { list-style: none; }
+/* END Meyer's Reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font:13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif; /* <-- from 960.gs text.css */
+    background: #c2c2c2;
+}
+
+main section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main section ul li {
+  margin: 1em;
+  width: 150px;
+  height: 150px;
+  border: .5em solid #000;
+  background: #fff;
+  overflow: hidden;
+}
+main section ul li h2 {
+  font-size: 1.4em;
+  padding: .2em;
+  text-align: center;
+}
