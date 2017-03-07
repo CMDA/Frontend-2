@@ -2,15 +2,15 @@
  * [remove: removes an object from the DOM tree]
  */
 Element.prototype.remove = function () {
-  this.parentElement.removeChild(this)
+  this.parentNode.removeChild(this)
 }
 /**
  * [remove: removes a series of objects from the DOM tree]
  */
 NodeList.prototype.remove = HTMLCollection.prototype.remove = function () {
   for (var i = this.length - 1; i >= 0; i--) {
-    if (this[i] && this[i].parentElement) {
-      this[i].parentElement.removeChild(this[i])
+    if (this[i] && this[i].parentNode) {
+      this[i].parentNode.removeChild(this[i])
     }
   }
 }
