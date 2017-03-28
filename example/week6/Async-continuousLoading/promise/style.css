@@ -1,0 +1,6 @@
+html, body, * {
+  font-family: lato, clearSans, verdana;
+}
+p {
+  max-width: 30em;
+}
